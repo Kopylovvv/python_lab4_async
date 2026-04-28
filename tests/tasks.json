@@ -1,0 +1,17 @@
+[
+  {
+    "id": "file_1",
+    "type": "order",
+    "order_id": 123
+  },
+  {
+    "id": "file_2",
+    "type": "notification",
+    "user": "john"
+  },
+  {
+    "id": "file_3",
+    "type": "stats",
+    "period": "day"
+  }
+]
