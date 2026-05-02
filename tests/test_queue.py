@@ -1,5 +1,5 @@
 import pytest
-from src.queue import TaskQueue, TaskIterator
+from src.task_queue import TaskQueue, TaskIterator
 from src.task import Task, Status, Priority
 
 
