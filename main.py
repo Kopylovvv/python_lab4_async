@@ -30,7 +30,6 @@ async def main():
                 info = await ainput("Описание: ")
 
                 try:
-                    # Создание задачи через твою модель[cite: 8]
                     task = Task(id=tid, payload={"info": info})
                     await executor.add_task(task)
                     print(f"Задача {tid} успешно добавлена.")
